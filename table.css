@@ -1,0 +1,125 @@
+/* Github https://github.com/ZiyaAkhundov */
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+}
+.head{
+    width: 26%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+}
+.head input{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    margin-top: 3px;
+}
+.head input:focus{
+    outline: none;
+    border-color: red;
+}
+.fa-lock{
+    display: none !important;
+}
+.head i{
+    position: absolute;
+    left: 85%;
+    top: 68%;
+}
+#submit{
+    width: 80px;
+    height: 30px;
+    margin:5px auto 0px 35px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+#change{
+    display: none;
+    width: 80px;
+    height: 30px;
+    margin:5px auto 0px 35px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.table{
+    width: 70%;
+    margin: auto;
+}
+.table table{
+    width: 90%;
+    margin:20px auto ;
+    border-collapse: collapse;
+}
+.table table td, .table table th{
+    border: 1px solid rgb(150, 150, 150);
+    text-align: center;
+    height: 30px;
+}
+.not-found {
+    text-align: center;
+    display: none;
+}
+.search{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 30px auto;
+    position: relative;
+}
+.search input{
+    width: 16%;
+    height: 21px;
+    padding-left: 5px;
+}
+.searchButton{
+    height: 25px;
+    width: 5%;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    margin: auto 3px;
+}
+.sort{
+    display: flex;
+    justify-content: center;
+}
+.sortButton{
+    margin: auto 3px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: green;
+    color: white;
+}
+.dblock{
+    display: block !important;
+}
+.search-block{
+    position: absolute;
+    top: 25px;
+    right: 44.7%;
+    bottom: 0;
+    width: 16%;
+    height: auto;
+    background-color: white;
+}
+.search-block-result{
+    border: 1px solid gray;
+    background-color: white;
+}
+/* Github https://github.com/ZiyaAkhundov */

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Github https://github.com/ZiyaAkhundov -->
+    <div class="main">
+        <div class="head">
+            <input type="text" placeholder="Name" id="name">
+            <input type="text" placeholder="Surname" id="surname">
+            <input type="email" placeholder="Email" id="email">
+            <input type="password" placeholder="password" id="password">
+            <i class="fa-solid fa-lock" ></i>
+            <i class="fa-sharp fa-solid fa-unlock"></i>           
+            <button id="submit">Submit</button>
+            <button id="change">Change</button>
+        </div>
+        <div class="search">
+            <input type="text" id="search" placeholder="Search">
+            <button class="searchButton" id="searchButton">Search</button>
+            <div class="search-block">
+                
+            </div>
+        </div>
+        <div class="sort">
+            <button class="up sortButton" id="sortButton" >Sort table</i></button>
+        </div>
+        <div class="table">
+            <table id="myTable">
+                <thead>
+                    <tr>
+                        <th>User Id</th>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Email</th>
+                        <th>password</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="tablebody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <p class="not-found">
+        No users found, please change search criteria...  
+      </p>
+<script src="table.js" type="text/javascript"></script>
+</body>
+</html>
